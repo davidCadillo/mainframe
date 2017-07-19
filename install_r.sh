@@ -8,7 +8,7 @@ apt-get install r-base r-base-dev
 apt-get install r-cran-rjava
 export _JAVA_OPTIONS="-Xss2560k -Xmx2g"
 
-R()
+R
 install.packages("wakefield")
 install.packages("xlsxjars")
-install.pacakages("xlsx")
+install.packages("xlsx")
