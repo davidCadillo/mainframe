@@ -11,4 +11,4 @@ export _JAVA_OPTIONS="-Xss2560k -Xmx2g"
 R
 install.packages("wakefield")
 install.packages("xlsxjars")
-install.pacakages("xlsx")
+install.packages("xlsx")
