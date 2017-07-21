@@ -1,11 +1,8 @@
-generador=function(tamanio_muestra, destino="datos", year=1998, filetype="csv"){
-  library(rJava)    
-  library("xlsxjars")
+generador=function(tamanio_muestra, year=1998){
   library("wakefield")
-  library("xlsx")
-  setwd("C:\\Users\\David\\Documents\\examen\\")
-  #setwd("~/examen/")
+  setwd("/root/proyecto")
   #Generación de sexo
+
   sexo<-sex(tamanio_muestra,x=c("Hombre", "Mujer"),prob = c(0.498623389,0.501376611))
   
   #Generación de edad
@@ -84,29 +81,16 @@ generador=function(tamanio_muestra, destino="datos", year=1998, filetype="csv"){
   }
   
   #Creación del archivo
-  archivo_destino=paste0(getwd(),"/output/",destino,".",filetype)
-  if(filetype == "xlsx"){
-      write.xlsx(x=datos,file = archivo_destino, row.names = F)    
-  }else{
-      write.csv(x = datos,file = archivo_destino,row.names = F)    
-  }
+  archivo_destino=paste0(getwd(),"/output/",destino,".csv")
+  write.csv(x = datos,file = archivo_destino,row.names = F)    
   
  }
 
 generador_estudio=function(n,year_from,output="csv"){
     year_to<-as.numeric(format(as.Date(Sys.Date()),"%Y")) - 1
-    
     for(i in year_from:year_to){
-     generador(tamanio_muestra=n,destino=paste0("datos",i),year=i,filetype=output)   
+     generador(tamanio_muestra=n,destino=paste0("datos",i),year=i)   
     }
     
 }
-
-generador_estudio(n=10,year=1998,output="xlsx")
-
-
-
-
-
-
 
