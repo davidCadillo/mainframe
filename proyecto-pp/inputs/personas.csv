@@ -1,31 +1,351 @@
-"Sexo","Edad","Estado civil","Nivel socieconómico","Grado de instrucción","Cigarros por día","Tiempo sin fumar","Frecuencia de alcohol","Cantidad de alcohol","Tiempo actividad física","Presión sistólica","Presión diastólica","IMC","Glicemia","Colesterol total","Triglicéridos","Colesterol HDL","Año"
-"Mujer",56,"Soltero","A","Secundaria incompleta",3,5,"Semanal",9,203,113,86,32.4145548567176,81,235,174,58,2014
-"Mujer",22,"Casado","C","Secundaria completa",1,7,"Semanal",2,183,119,74,34.6332414411008,129,279,197,45,2014
-"Hombre",52,"Soltero","E","Secundaria completa",0,0,"Mensual",2,4,118,62,33.2721427362412,106,300,152,47,2014
-"Hombre",27,"Divorciado","E","Secundaria completa",0,0,"Mensual",3,248,192,99,30.8810102231801,97,255,193,55,2014
-"Mujer",49,"Soltero","C","Secundaria completa",0,0,"Semanal",2,144,167,54,16.4588179476559,91,187,206,42,2014
-"Hombre",24,"Soltero","D","Estudios tecnologicos",3,0,"Semanal",5,51,140,78,26.0674191471189,117,274,134,48,2014
-"Mujer",56,"Separado","E","Secundaria completa",0,1,"Semanal",8,65,141,106,27.7931347973645,115,262,140,48,2014
-"Mujer",69,"Soltero","E","Estudios universitarios",0,0,"Semanal",4,73,105,60,20.9354555550963,111,218,216,43,2014
-"Hombre",71,"Separado","E","Estudios universitarios",0,0,"Semanal",9,79,160,84,24.5816831290722,87,153,170,42,2014
-"Hombre",35,"Soltero","E","Estudios tecnologicos",1,11,"Semanal",4,79,154,107,35.9054895415902,125,180,196,57,2014
-"Mujer",50,"Soltero","E","Secundaria completa",0,2,"Semanal",1,26,139,52,25.6594073455781,123,179,209,43,2015
-"Mujer",43,"Divorciado","D","Postgrado",0,0,"Mensual",1,252,138,73,17.0445050802082,117,257,207,55,2015
-"Mujer",87,"Casado","C","Estudios universitarios",0,11,"Semanal",5,266,80,68,16.0100671239197,103,299,186,42,2015
-"Hombre",34,"Divorciado","D","Estudios tecnologicos",0,0,"Semanal",17,135,159,95,38.0182049199939,124,207,132,53,2015
-"Hombre",31,"Separado","D","Secundaria completa",1,0,"Semanal",2,61,85,107,24.1591665949672,102,151,211,56,2015
-"Mujer",53,"Pareja de hecho","C","Secundaria completa",0,0,"Semanal",5,95,89,87,17.6543681304902,130,208,210,46,2015
-"Hombre",76,"Soltero","D","Estudios universitarios",0,12,"Semanal",2,79,115,98,22.7802246175706,102,262,174,60,2015
-"Hombre",18,"Casado","E","Estudios universitarios",0,6,"Mensual",3,85,135,88,36.5948586761951,104,202,185,45,2015
-"Mujer",21,"Soltero","E","Secundaria completa",1,5,"Semanal",3,56,127,59,23.3479332607239,128,157,184,60,2015
-"Hombre",22,"Soltero","D","Secundaria completa",3,0,"Semanal",2,38,101,101,20.7724345624447,90,202,133,39,2015
-"Hombre",42,"Viudo","D","Postgrado",0,0,"Mensual",3,48,86,84,23.9757567457855,125,259,209,37,2016
-"Hombre",40,"Viudo","D","Secundaria completa",0,7,"Mensual",2,98,169,75,25.634245576337,122,252,174,45,2016
-"Mujer",33,"Soltero","D","Estudios tecnologicos",0,8,"Mensual",2,112,79,78,28.6161419451237,125,194,134,46,2016
-"Hombre",35,"Soltero","D","Secundaria completa",0,0,"Semanal",8,9,86,53,21.8108024131507,125,171,207,50,2016
-"Mujer",54,"Separado","D","Estudios tecnologicos",0,11,"Mensual",1,60,76,87,35.5676092468202,95,156,187,55,2016
-"Mujer",45,"Pareja de hecho","C","Estudios tecnologicos",1,1,"Mensual",4,258,109,79,23.7777434587479,90,235,169,44,2016
-"Hombre",85,"Soltero","E","Secundaria completa",0,8,"Mensual",8,100,73,120,16.4676132183522,107,283,185,38,2016
-"Mujer",40,"Soltero","C","Secundaria completa",1,9,"Semanal",2,49,158,57,19.3513746224344,102,231,170,59,2016
-"Hombre",46,"Viudo","C","Secundaria completa",1,0,"Semanal",5,200,133,84,23.1251434758306,119,169,150,54,2016
-"Hombre",24,"Soltero","D","Estudios universitarios",0,0,"Mensual",9,20,100,110,37.061624981463,124,280,155,56,2016
+"Sexo","Edad","Estado civil","Nivel socieconomico","Grado de instruccion","Cigarros por dia","Tiempo sin fumar","Frecuencia de alcohol","Cantidad de alcohol","Tiempo actividad fisica","Presion sistolica","Presion diastolica","IMC","Glicemia","Colesterol total","Trigliceridos","Colesterol HDL","Año"
+"Mujer",46,"Casado","C","Estudios tecnologicos",1,0,"Semanal",3,148,192,65,39.8368638902903,97,236,189,50,2010
+"Mujer",53,"Viudo","D","Estudios universitarios",1,0,"Semanal",9,160,79,76,18.0922371316701,94,212,142,57,2010
+"Hombre",27,"Casado","E","Escuela Primaria",1,0,"Semanal",7,76,194,74,31.225899303332,111,285,212,53,2010
+"Mujer",73,"Divorciado","D","Secundaria completa",3,3,"Semanal",5,183,142,85,17.5998487342149,123,211,138,46,2010
+"Hombre",23,"Casado","C","Secundaria completa",0,3,"Semanal",1,13,157,97,16.2442688755691,115,168,219,56,2010
+"Mujer",58,"Casado","E","Secundaria completa",0,0,"Mensual",5,66,175,89,36.8148870319128,83,252,130,58,2010
+"Hombre",48,"Casado","E","Secundaria completa",0,0,"Mensual",8,34,173,111,31.0654652900994,91,208,212,58,2010
+"Mujer",42,"Separado","C","Secundaria completa",0,0,"Semanal",1,95,179,67,24.7613130025566,126,183,220,38,2010
+"Mujer",18,"Viudo","E","Secundaria completa",0,0,"Semanal",8,100,158,95,34.134296791628,90,166,217,46,2010
+"Hombre",17,"Divorciado","E","Escuela Primaria",0,11,"Semanal",1,54,145,100,30.665107820183,102,292,202,45,2010
+"Mujer",55,"Separado","E","Estudios universitarios",0,2,"Mensual",4,151,185,80,20.9093299675733,90,227,140,52,2010
+"Mujer",58,"Separado","B","Secundaria completa",0,5,"Semanal",9,135,94,69,20.4114097822458,128,251,198,37,2010
+"Mujer",51,"Pareja de hecho","C","Secundaria completa",0,0,"Semanal",2,19,85,65,29.0883464012295,112,184,214,40,2010
+"Mujer",85,"Soltero","A","Secundaria completa",0,0,"Semanal",4,125,106,101,33.4748072642833,114,184,218,43,2010
+"Mujer",71,"Pareja de hecho","D","Secundaria completa",0,0,"Semanal",5,280,76,117,23.206410150975,98,171,190,58,2010
+"Mujer",23,"Soltero","D","Secundaria completa",1,12,"Semanal",2,4,138,70,35.8570429738611,102,269,159,39,2010
+"Hombre",51,"Divorciado","E","Secundaria completa",0,8,"Semanal",5,47,165,85,32.8037505876273,88,282,205,45,2010
+"Hombre",24,"Separado","C","Secundaria completa",1,2,"Semanal",5,207,116,99,32.3936498928815,109,159,205,54,2010
+"Mujer",52,"Casado","C","Estudios universitarios",1,5,"Mensual",9,50,97,86,19.3714327123016,121,199,213,37,2010
+"Mujer",35,"Soltero","E","Escuela Primaria",2,0,"Semanal",4,78,103,73,29.0841211006045,130,187,136,54,2010
+"Hombre",17,"Casado","E","Secundaria completa",0,1,"Mensual",10,8,193,83,34.1436049286276,90,222,144,40,2010
+"Mujer",30,"Separado","D","Estudios tecnologicos",0,0,"Semanal",10,46,108,113,27.9403802938759,92,254,196,42,2010
+"Hombre",85,"Casado","E","Secundaria completa",1,9,"Mensual",7,134,167,59,27.0258229989558,91,198,216,53,2010
+"Hombre",50,"Divorciado","E","Secundaria completa",0,0,"Semanal",3,140,117,64,28.0207451153547,84,266,196,60,2010
+"Hombre",23,"Divorciado","D","Secundaria completa",0,0,"Semanal",4,107,153,58,36.7299297545105,90,240,154,43,2010
+"Hombre",22,"Separado","E","Postgrado",0,5,"Semanal",4,27,163,62,18.8077397551388,116,279,216,53,2010
+"Hombre",24,"Casado","C","Secundaria incompleta",0,0,"Mensual",3,97,75,76,17.4858351927251,96,200,147,43,2010
+"Hombre",31,"Casado","E","Estudios universitarios",3,0,"Semanal",2,79,159,111,31.3827618155628,83,164,194,59,2010
+"Hombre",66,"Soltero","E","Secundaria completa",0,2,"Semanal",5,74,95,114,19.971688548103,81,264,142,58,2010
+"Mujer",49,"Casado","D","Estudios tecnologicos",0,0,"Semanal",1,232,110,71,37.281012987718,98,189,185,56,2010
+"Mujer",22,"Separado","D","Estudios tecnologicos",4,0,"Mensual",1,112,162,65,24.6388690713793,128,150,191,41,2010
+"Hombre",19,"Soltero","E","Secundaria completa",1,0,"Mensual",3,147,130,66,19.9774184897542,124,246,196,46,2010
+"Mujer",61,"Soltero","C","Secundaria completa",0,0,"Semanal",1,53,122,90,26.4450245052576,94,207,134,44,2010
+"Hombre",79,"Soltero","E","Secundaria completa",0,0,"Semanal",1,75,179,80,24.4658780004829,99,182,181,48,2010
+"Hombre",19,"Soltero","E","Estudios universitarios",1,2,"Semanal",5,28,118,105,16.5761253423989,124,259,160,57,2010
+"Mujer",55,"Soltero","E","Postgrado",1,9,"Mensual",1,76,123,63,22.8328639250249,88,260,208,44,2010
+"Mujer",35,"Casado","D","Estudios universitarios",2,0,"Semanal",2,127,105,80,24.2521245945245,97,207,195,45,2010
+"Mujer",35,"Soltero","E","Estudios universitarios",1,0,"Semanal",5,254,118,60,21.0037330687046,103,275,187,47,2010
+"Hombre",87,"Casado","E","Estudios tecnologicos",4,2,"Mensual",6,226,184,113,33.5088536050171,89,251,136,43,2010
+"Hombre",40,"Soltero","D","Secundaria incompleta",1,0,"Semanal",6,85,107,60,28.5436594597995,84,295,138,49,2010
+"Hombre",42,"Divorciado","E","Secundaria incompleta",0,3,"Semanal",2,62,172,93,25.4589872732759,111,245,189,47,2010
+"Hombre",20,"Pareja de hecho","D","Secundaria completa",0,5,"Semanal",4,16,170,117,25.4403554648161,103,289,188,48,2010
+"Mujer",50,"Pareja de hecho","D","Secundaria completa",0,0,"Semanal",9,225,76,66,33.2365762982517,121,211,143,55,2010
+"Hombre",22,"Divorciado","E","Escuela Primaria",0,12,"Mensual",4,183,113,103,28.3040989171714,80,255,180,51,2010
+"Mujer",55,"Pareja de hecho","E","Escuela Primaria",1,0,"Mensual",2,20,123,93,33.1549941394478,127,153,183,54,2010
+"Mujer",18,"Casado","D","Estudios tecnologicos",2,4,"Semanal",1,126,87,69,24.7718986254185,115,237,152,57,2010
+"Hombre",50,"Soltero","E","Secundaria incompleta",4,12,"Semanal",1,112,74,80,30.1778678502887,128,232,132,53,2010
+"Mujer",74,"Soltero","E","Secundaria incompleta",0,5,"Semanal",1,149,129,89,17.2642235066742,106,269,158,45,2010
+"Mujer",40,"Pareja de hecho","D","Secundaria completa",0,5,"Semanal",5,96,125,100,20.1750069987029,125,196,140,43,2010
+"Hombre",29,"Pareja de hecho","C","Estudios tecnologicos",0,2,"Semanal",4,96,173,96,32.3157020602375,84,300,184,59,2010
+"Mujer",20,"Viudo","E","Estudios universitarios",0,0,"Semanal",4,6,177,105,37.3377591371536,112,221,207,57,2011
+"Hombre",74,"Soltero","E","Estudios tecnologicos",2,0,"Semanal",16,226,112,118,32.0999947823584,119,209,211,56,2011
+"Mujer",83,"Viudo","B","Escuela Primaria",0,0,"Semanal",4,27,71,66,20.8252673354,81,276,157,55,2011
+"Hombre",19,"Casado","D","Secundaria completa",0,0,"Mensual",8,58,99,101,29.6483368203044,113,194,152,38,2011
+"Mujer",65,"Separado","E","Secundaria completa",0,0,"Semanal",1,64,162,112,25.1711078193039,80,179,133,46,2011
+"Mujer",61,"Soltero","C","Secundaria completa",1,0,"Mensual",2,133,166,67,32.3920248989016,93,281,154,38,2011
+"Mujer",57,"Separado","A","Secundaria completa",0,5,"Semanal",2,181,110,66,20.2467171531171,112,165,138,39,2011
+"Mujer",20,"Separado","D","Secundaria completa",0,0,"Semanal",3,142,96,89,23.9471683260053,102,289,165,47,2011
+"Hombre",19,"Separado","C","Secundaria incompleta",0,0,"Semanal",4,113,87,99,35.5172757338732,80,198,170,53,2011
+"Hombre",31,"Soltero","E","Secundaria incompleta",0,0,"Semanal",5,129,189,52,39.3943471293896,103,199,161,45,2011
+"Hombre",36,"Soltero","B","Postgrado",2,3,"Semanal",4,107,70,75,17.4377736337483,120,161,185,37,2011
+"Hombre",49,"Separado","E","Estudios universitarios",0,12,"Semanal",2,142,178,118,21.3263240791857,106,245,216,58,2011
+"Mujer",54,"Pareja de hecho","C","Estudios tecnologicos",0,5,"Mensual",3,150,157,73,27.3511616196483,80,161,194,48,2011
+"Mujer",38,"Soltero","C","Secundaria completa",1,0,"Semanal",1,223,132,65,35.3751874770969,86,293,200,37,2011
+"Hombre",31,"Viudo","E","Estudios universitarios",0,1,"Semanal",10,7,185,68,26.5761250536889,83,188,191,49,2011
+"Hombre",53,"Pareja de hecho","B","Secundaria incompleta",1,0,"Semanal",8,82,117,55,35.9476785827428,118,213,214,40,2011
+"Mujer",22,"Viudo","E","Postgrado",2,0,"Semanal",3,142,104,112,36.7804505918175,102,247,189,60,2011
+"Mujer",75,"Separado","D","Estudios universitarios",1,8,"Mensual",5,101,136,100,39.8040366861969,107,284,169,49,2011
+"Hombre",51,"Soltero","C","Estudios tecnologicos",1,0,"Semanal",4,277,81,108,32.4884008038789,85,259,169,44,2011
+"Hombre",43,"Pareja de hecho","D","Estudios tecnologicos",0,0,"Mensual",1,6,177,94,32.8086595330387,87,296,190,48,2011
+"Mujer",31,"Divorciado","E","Secundaria completa",0,0,"Semanal",1,99,170,89,37.0963672101498,123,257,213,42,2011
+"Hombre",20,"Pareja de hecho","B","Secundaria completa",0,11,"Semanal",10,148,157,59,31.2722987309098,94,283,220,52,2011
+"Mujer",18,"Soltero","E","Secundaria completa",0,11,"Semanal",3,92,163,89,27.7921424526721,81,172,145,38,2011
+"Hombre",18,"Soltero","E","Escuela Primaria",1,0,"Semanal",3,126,188,72,35.6290300004184,83,285,151,58,2011
+"Hombre",23,"Pareja de hecho","C","Estudios tecnologicos",4,0,"Semanal",4,21,195,102,35.6055216845125,107,191,191,42,2011
+"Mujer",63,"Soltero","E","Secundaria completa",0,0,"Mensual",1,117,136,67,26.449180085212,100,238,216,50,2011
+"Mujer",26,"Divorciado","D","Secundaria incompleta",2,5,"Mensual",9,255,110,99,35.6152801197022,115,187,137,45,2011
+"Hombre",45,"Separado","E","Postgrado",2,0,"Semanal",3,117,89,84,37.1190900467336,109,229,151,51,2011
+"Hombre",18,"Soltero","E","Estudios universitarios",1,11,"Mensual",7,296,85,105,28.9213617071509,110,170,219,41,2011
+"Mujer",48,"Pareja de hecho","D","Secundaria completa",4,0,"Semanal",10,126,108,78,32.0113556087017,83,162,173,54,2011
+"Mujer",21,"Pareja de hecho","B","Secundaria completa",1,0,"Mensual",1,143,136,112,29.8101838771254,84,243,210,45,2011
+"Mujer",24,"Viudo","B","Estudios universitarios",2,1,"Semanal",5,245,197,61,36.5246180761606,124,170,208,57,2011
+"Mujer",51,"Soltero","E","Secundaria completa",1,2,"Semanal",7,122,116,83,32.0817527547479,84,182,190,60,2011
+"Mujer",55,"Divorciado","E","Estudios universitarios",0,0,"Mensual",3,7,98,57,22.0378583967686,102,218,207,45,2011
+"Hombre",20,"Pareja de hecho","D","Estudios universitarios",2,0,"Semanal",1,238,159,61,33.0543897096068,111,204,162,46,2011
+"Mujer",90,"Separado","E","Secundaria completa",0,0,"Semanal",10,61,107,50,32.0929802525789,83,162,150,40,2011
+"Mujer",24,"Divorciado","E","Secundaria completa",0,0,"Semanal",5,36,199,99,22.9937901683152,100,261,210,42,2011
+"Mujer",70,"Casado","D","Escuela Primaria",0,0,"Semanal",2,270,147,84,21.1411796901375,112,179,210,54,2011
+"Hombre",19,"Separado","C","Escuela Primaria",0,0,"Semanal",4,93,177,58,35.1536719817668,115,252,214,53,2011
+"Hombre",40,"Soltero","E","Secundaria completa",2,0,"Semanal",5,37,104,118,29.6347474250942,105,241,193,50,2011
+"Mujer",24,"Casado","C","Secundaria completa",4,8,"Semanal",4,269,138,79,21.060163538903,84,286,155,47,2011
+"Mujer",61,"Casado","B","Estudios tecnologicos",0,0,"Semanal",1,26,77,67,38.7324167750776,129,167,151,43,2011
+"Hombre",36,"Soltero","C","Secundaria completa",1,8,"Semanal",4,187,95,107,24.5707944836468,95,254,133,40,2011
+"Hombre",24,"Soltero","E","Secundaria completa",0,0,"Semanal",9,185,91,58,34.1474578157067,90,241,211,53,2011
+"Hombre",37,"Divorciado","E","Secundaria completa",2,0,"Semanal",1,116,180,109,29.8260510209948,111,236,137,45,2011
+"Hombre",44,"Viudo","D","Escuela Primaria",1,0,"Mensual",4,116,191,68,27.1734309345484,98,178,204,59,2011
+"Mujer",18,"Viudo","D","Estudios universitarios",0,0,"Mensual",2,125,183,102,25.4326908905059,89,228,163,41,2011
+"Mujer",16,"Pareja de hecho","E","Estudios universitarios",0,5,"Semanal",3,17,100,57,17.7038716059178,103,197,204,59,2011
+"Hombre",18,"Separado","C","Estudios tecnologicos",0,5,"Semanal",2,57,83,113,20.3447079379112,122,150,168,56,2011
+"Hombre",54,"Soltero","D","Postgrado",0,1,"Semanal",3,50,122,73,34.7859099227935,124,160,195,59,2011
+"Mujer",18,"Casado","C","Secundaria completa",1,3,"Semanal",2,119,87,66,33.9214050285518,125,162,169,40,2012
+"Mujer",21,"Soltero","E","Estudios tecnologicos",0,0,"Semanal",2,119,142,71,16.2252339478582,103,271,177,50,2012
+"Mujer",44,"Pareja de hecho","E","Estudios tecnologicos",5,0,"Semanal",1,59,137,92,37.4352128263563,117,165,202,47,2012
+"Mujer",27,"Casado","E","Secundaria incompleta",4,0,"Mensual",1,84,78,116,16.7057488821447,129,288,215,58,2012
+"Mujer",29,"Viudo","C","Secundaria completa",1,0,"Semanal",4,76,189,96,34.2760499063879,83,264,206,48,2012
+"Mujer",42,"Soltero","D","Secundaria completa",0,1,"Semanal",1,5,166,82,33.7629123199731,115,247,212,42,2012
+"Mujer",76,"Pareja de hecho","D","Postgrado",3,0,"Semanal",2,287,188,61,34.8156830072403,82,150,173,49,2012
+"Mujer",50,"Soltero","E","Estudios universitarios",1,5,"Semanal",1,191,155,115,20.7115580011159,109,238,168,52,2012
+"Mujer",83,"Soltero","D","Secundaria completa",0,0,"Semanal",17,293,139,107,17.9815271999687,97,269,164,39,2012
+"Hombre",42,"Soltero","C","Secundaria completa",1,0,"Mensual",4,73,70,77,37.5642278343439,90,241,220,45,2012
+"Hombre",28,"Soltero","E","Estudios tecnologicos",0,10,"Semanal",1,134,70,53,38.8292038124055,114,176,181,40,2012
+"Hombre",61,"Divorciado","D","Secundaria incompleta",1,2,"Semanal",2,170,82,53,29.2472406420857,87,275,132,58,2012
+"Mujer",46,"Soltero","C","Estudios universitarios",1,0,"Semanal",2,17,97,78,23.7275631502271,92,224,211,60,2012
+"Hombre",24,"Pareja de hecho","B","Estudios universitarios",0,8,"Semanal",4,85,133,107,37.1660741344094,113,157,143,53,2012
+"Hombre",23,"Casado","B","Estudios universitarios",1,0,"Mensual",4,68,117,97,33.7367057129741,103,223,147,42,2012
+"Mujer",45,"Divorciado","E","Estudios universitarios",0,0,"Semanal",4,131,132,114,33.2569445967674,89,289,180,49,2012
+"Hombre",39,"Soltero","C","Secundaria completa",1,0,"Mensual",4,185,182,69,22.9768051020801,105,296,162,38,2012
+"Mujer",36,"Separado","E","Secundaria completa",1,0,"Mensual",7,39,94,71,34.728643765673,125,293,183,52,2012
+"Mujer",20,"Soltero","E","Secundaria completa",0,0,"Semanal",5,47,102,98,33.4457818735391,82,165,187,39,2012
+"Mujer",20,"Separado","E","Secundaria completa",0,9,"Semanal",3,39,192,84,26.3944102935493,100,172,135,47,2012
+"Mujer",29,"Divorciado","D","Secundaria completa",2,1,"Mensual",5,78,174,118,38.1481160093099,108,223,130,56,2012
+"Hombre",23,"Casado","C","Secundaria completa",0,10,"Mensual",6,94,185,89,23.9567771665752,83,252,159,44,2012
+"Hombre",73,"Separado","D","Secundaria completa",1,5,"Semanal",9,63,128,118,38.6897159740329,104,221,202,59,2012
+"Hombre",70,"Soltero","E","Estudios tecnologicos",1,2,"Mensual",2,184,138,101,38.8947167117149,120,155,176,50,2012
+"Mujer",26,"Soltero","E","Secundaria completa",0,0,"Semanal",2,0,100,60,36.6272201538086,111,281,205,54,2012
+"Mujer",61,"Pareja de hecho","D","Secundaria incompleta",0,0,"Mensual",4,178,102,77,25.3117671124637,114,233,211,39,2012
+"Mujer",33,"Casado","B","Secundaria completa",0,0,"Semanal",3,139,81,101,23.1064972002059,112,156,152,53,2012
+"Hombre",21,"Soltero","E","Secundaria completa",1,1,"Mensual",3,277,88,63,23.7528810519725,122,199,206,40,2012
+"Hombre",23,"Soltero","E","Secundaria completa",0,0,"Semanal",6,147,142,111,35.1064006406814,111,173,143,58,2012
+"Hombre",75,"Soltero","E","Secundaria incompleta",0,0,"Semanal",4,274,176,120,22.3889603838325,122,204,174,37,2012
+"Hombre",18,"Viudo","E","Secundaria incompleta",0,0,"Semanal",2,240,77,76,24.9309685286134,84,186,153,41,2012
+"Hombre",30,"Casado","E","Secundaria completa",3,0,"Mensual",2,106,142,52,34.8726535178721,80,269,146,54,2012
+"Hombre",22,"Casado","E","Secundaria completa",1,7,"Semanal",4,143,177,83,28.3456252012402,101,203,181,54,2012
+"Hombre",19,"Viudo","E","Postgrado",0,0,"Mensual",9,0,92,111,27.5794021338224,120,207,168,51,2012
+"Mujer",34,"Divorciado","C","Secundaria incompleta",2,0,"Semanal",4,272,102,54,27.2346138153225,87,220,205,54,2012
+"Mujer",23,"Soltero","E","Secundaria completa",0,5,"Mensual",10,49,74,119,34.3392242603004,102,223,135,42,2012
+"Mujer",19,"Casado","E","Estudios universitarios",0,0,"Mensual",2,14,192,96,34.1711886655539,127,240,175,46,2012
+"Hombre",42,"Viudo","C","Secundaria completa",2,5,"Semanal",10,289,164,118,29.836075078696,112,279,155,38,2012
+"Mujer",48,"Soltero","E","Secundaria completa",1,0,"Mensual",4,59,159,106,17.8198373317719,91,181,188,45,2012
+"Mujer",39,"Separado","C","Secundaria completa",0,9,"Mensual",1,81,142,104,36.1624325253069,87,254,138,46,2012
+"Hombre",37,"Casado","E","Secundaria completa",0,0,"Mensual",1,229,145,50,31.072551490739,98,287,201,56,2012
+"Hombre",47,"Soltero","C","Estudios universitarios",0,0,"Semanal",6,9,76,75,24.6967729460448,130,189,149,57,2012
+"Mujer",31,"Casado","D","Secundaria completa",0,0,"Mensual",5,126,140,88,33.5722043476999,84,163,220,37,2012
+"Mujer",21,"Casado","B","Secundaria completa",1,0,"Semanal",16,99,122,107,38.5503393691033,91,175,214,44,2012
+"Hombre",23,"Soltero","E","Secundaria completa",1,7,"Semanal",4,74,87,68,31.4111414756626,88,213,155,59,2012
+"Mujer",17,"Separado","D","Estudios universitarios",1,0,"Mensual",6,44,187,88,29.4077778868377,87,300,193,50,2012
+"Hombre",17,"Casado","C","Secundaria incompleta",1,0,"Semanal",1,121,141,102,23.8050749339163,119,254,183,49,2012
+"Hombre",38,"Soltero","B","Secundaria completa",0,0,"Semanal",8,105,139,90,36.7416237555444,115,196,163,41,2012
+"Hombre",17,"Soltero","E","Estudios tecnologicos",1,0,"Semanal",2,73,181,63,30.693636611104,115,243,182,47,2012
+"Hombre",42,"Soltero","E","Secundaria completa",0,0,"Semanal",16,64,108,82,16.8977629002184,93,234,205,42,2012
+"Mujer",78,"Pareja de hecho","E","Secundaria completa",0,1,"Semanal",7,40,165,109,37.8337904326618,83,279,144,54,2013
+"Mujer",22,"Separado","D","Estudios universitarios",0,0,"Mensual",2,273,150,119,22.8220760468394,104,160,201,50,2013
+"Hombre",81,"Separado","C","Secundaria completa",1,5,"Semanal",2,170,178,77,24.9817363359034,104,166,173,50,2013
+"Mujer",19,"Pareja de hecho","D","Secundaria completa",1,2,"Semanal",4,273,129,68,23.7182454913855,103,221,140,43,2013
+"Mujer",23,"Pareja de hecho","D","Estudios tecnologicos",0,0,"Semanal",4,126,156,78,31.7873886916786,83,296,144,44,2013
+"Hombre",15,"Pareja de hecho","E","Estudios tecnologicos",1,0,"Semanal",4,19,102,63,18.0070518162102,97,172,193,42,2013
+"Hombre",29,"Pareja de hecho","C","Secundaria completa",1,0,"Mensual",4,54,92,116,33.8292897175997,91,246,174,42,2013
+"Hombre",61,"Pareja de hecho","E","Secundaria completa",1,10,"Semanal",5,96,169,68,26.1778937149793,124,290,204,58,2013
+"Mujer",45,"Soltero","E","Estudios tecnologicos",1,0,"Mensual",2,130,156,116,34.7347456905991,94,182,188,39,2013
+"Mujer",20,"Pareja de hecho","E","Secundaria completa",0,0,"Semanal",1,59,111,114,34.6022383179516,122,209,181,55,2013
+"Hombre",37,"Casado","E","Secundaria completa",1,0,"Semanal",5,98,160,98,26.7218803483993,89,241,156,52,2013
+"Mujer",31,"Pareja de hecho","D","Secundaria incompleta",1,5,"Semanal",6,124,124,73,36.6411518100649,84,247,187,39,2013
+"Mujer",22,"Separado","E","Estudios universitarios",0,0,"Semanal",5,147,106,87,16.3361483532935,87,252,183,54,2013
+"Mujer",56,"Casado","B","Secundaria incompleta",0,0,"Semanal",1,242,72,99,20.1347930915654,86,162,205,51,2013
+"Hombre",52,"Divorciado","D","Secundaria completa",1,0,"Mensual",1,134,188,111,30.5698179025203,96,170,187,40,2013
+"Mujer",22,"Casado","C","Secundaria completa",0,0,"Semanal",4,133,182,78,36.2158068586141,126,170,159,41,2013
+"Hombre",19,"Casado","A","Postgrado",0,2,"Semanal",4,98,165,51,31.1272973101586,90,250,175,38,2013
+"Hombre",32,"Separado","D","Estudios tecnologicos",1,2,"Mensual",3,132,186,95,19.1601272691041,112,196,213,56,2013
+"Hombre",54,"Pareja de hecho","D","Escuela Primaria",1,0,"Semanal",13,37,195,101,26.6648424584419,112,184,199,47,2013
+"Mujer",38,"Divorciado","C","Secundaria completa",0,0,"Mensual",1,21,180,53,29.1144999954849,81,236,180,57,2013
+"Mujer",19,"Soltero","E","Secundaria completa",0,0,"Mensual",1,86,180,113,16.5240937117487,103,271,190,47,2013
+"Hombre",55,"Casado","A","Estudios universitarios",1,0,"Semanal",1,161,175,87,31.8322212453932,107,187,155,49,2013
+"Hombre",53,"Soltero","D","Secundaria incompleta",1,0,"Semanal",4,92,181,88,35.4060219507664,96,233,175,45,2013
+"Mujer",22,"Divorciado","D","Secundaria completa",1,0,"Semanal",9,68,115,89,27.5361969266087,130,230,191,56,2013
+"Hombre",60,"Separado","E","Secundaria completa",0,0,"Mensual",3,293,163,103,28.0087861623615,97,154,210,38,2013
+"Hombre",48,"Soltero","D","Secundaria completa",0,0,"Semanal",3,71,112,89,17.9556318912655,117,254,159,51,2013
+"Mujer",27,"Soltero","D","Estudios universitarios",0,5,"Semanal",20,117,96,116,22.8438336737454,89,262,134,60,2013
+"Mujer",23,"Viudo","C","Secundaria completa",1,0,"Mensual",7,26,194,70,27.1824654862285,125,165,172,56,2013
+"Mujer",19,"Pareja de hecho","E","Estudios universitarios",0,0,"Semanal",5,1,88,78,26.0268699191511,115,278,217,44,2013
+"Mujer",33,"Divorciado","A","Escuela Primaria",1,3,"Semanal",2,248,173,50,36.9348918292671,130,283,200,43,2013
+"Mujer",18,"Separado","B","Secundaria completa",0,8,"Semanal",4,16,88,104,22.4816408809274,113,157,202,58,2013
+"Hombre",19,"Viudo","C","Escuela Primaria",4,5,"Semanal",4,36,191,79,26.3532546181232,92,216,181,37,2013
+"Hombre",46,"Soltero","E","Escuela Primaria",2,0,"Mensual",3,72,186,117,26.7385477349162,127,206,200,43,2013
+"Mujer",22,"Divorciado","C","Secundaria completa",0,1,"Semanal",9,62,190,62,29.627989621833,80,173,203,48,2013
+"Mujer",37,"Divorciado","C","Estudios universitarios",1,6,"Mensual",3,275,145,90,31.7816786654294,110,271,176,47,2013
+"Mujer",53,"Soltero","E","Secundaria completa",1,0,"Semanal",2,23,132,62,33.2804025933146,96,199,196,48,2013
+"Hombre",49,"Soltero","C","Secundaria completa",0,2,"Semanal",13,89,122,72,18.0768776796758,85,195,182,42,2013
+"Mujer",76,"Soltero","D","Estudios universitarios",1,2,"Semanal",3,107,82,53,19.7455328758806,112,277,151,60,2013
+"Mujer",44,"Soltero","E","Estudios universitarios",0,0,"Mensual",2,193,195,84,30.0386479590088,91,225,135,39,2013
+"Hombre",20,"Casado","E","Estudios tecnologicos",0,11,"Semanal",2,141,79,52,22.2477307189256,123,216,194,39,2013
+"Mujer",52,"Soltero","E","Secundaria completa",0,0,"Semanal",1,69,187,54,32.5012261383235,98,265,130,40,2013
+"Hombre",59,"Separado","C","Secundaria completa",1,5,"Mensual",8,179,152,61,39.7573226466775,115,215,156,51,2013
+"Mujer",84,"Separado","D","Secundaria completa",0,0,"Semanal",6,80,149,82,31.4978712573647,104,155,219,52,2013
+"Mujer",50,"Viudo","C","Secundaria incompleta",2,1,"Mensual",16,48,110,93,21.7377681750804,121,261,140,56,2013
+"Mujer",22,"Soltero","D","Secundaria completa",1,0,"Semanal",8,229,110,101,21.1953701917082,94,203,220,43,2013
+"Mujer",23,"Casado","E","Secundaria completa",1,0,"Semanal",10,86,97,89,29.1832174360752,122,217,176,48,2013
+"Mujer",75,"Pareja de hecho","E","Estudios tecnologicos",4,0,"Semanal",1,95,197,78,24.5671171862632,116,234,133,39,2013
+"Hombre",72,"Soltero","E","Secundaria completa",0,0,"Semanal",10,217,78,87,35.1746948175132,92,235,153,57,2013
+"Hombre",17,"Separado","E","Secundaria completa",0,5,"Mensual",1,2,92,58,38.0283417869359,100,299,142,52,2013
+"Hombre",16,"Soltero","E","Secundaria completa",0,0,"Mensual",4,50,76,59,17.8444500863552,121,220,187,57,2013
+"Mujer",75,"Separado","D","Secundaria completa",2,0,"Mensual",8,41,113,78,22.8089494947344,101,295,164,48,2014
+"Hombre",18,"Casado","C","Secundaria completa",0,0,"Semanal",5,291,94,73,24.6720880009234,83,243,146,57,2014
+"Mujer",28,"Casado","E","Secundaria completa",0,0,"Semanal",5,126,80,115,19.7767960894853,86,276,148,45,2014
+"Mujer",19,"Divorciado","E","Secundaria incompleta",1,0,"Semanal",1,145,111,76,26.6417814511806,119,280,193,38,2014
+"Mujer",44,"Casado","E","Secundaria completa",0,0,"Semanal",5,254,109,68,18.169772490859,90,256,156,59,2014
+"Hombre",68,"Soltero","C","Secundaria completa",0,0,"Mensual",8,248,137,60,19.5793281514198,120,223,210,44,2014
+"Mujer",38,"Separado","E","Estudios universitarios",0,0,"Mensual",4,215,184,62,30.9959319159389,126,224,188,45,2014
+"Mujer",85,"Viudo","B","Estudios tecnologicos",0,12,"Semanal",7,60,119,74,23.1840199194849,86,231,133,48,2014
+"Hombre",19,"Casado","D","Secundaria completa",0,0,"Mensual",3,66,166,117,36.1716372128576,101,169,162,60,2014
+"Mujer",21,"Separado","D","Secundaria completa",0,0,"Semanal",7,18,142,77,22.3825961779803,121,152,197,54,2014
+"Hombre",53,"Separado","D","Estudios universitarios",0,0,"Mensual",5,56,189,67,38.3993605729192,105,162,134,44,2014
+"Mujer",22,"Divorciado","C","Estudios tecnologicos",2,4,"Semanal",3,138,129,59,16.4623594023287,92,237,217,42,2014
+"Hombre",35,"Viudo","C","Postgrado",1,0,"Mensual",1,132,100,83,27.8478355165571,80,210,132,60,2014
+"Mujer",18,"Separado","C","Secundaria completa",1,5,"Mensual",6,35,195,107,39.2458907216787,109,163,159,54,2014
+"Hombre",60,"Casado","C","Secundaria completa",2,0,"Mensual",5,88,98,103,18.2188727967441,89,278,204,53,2014
+"Hombre",35,"Pareja de hecho","C","Secundaria completa",2,0,"Semanal",2,9,165,109,26.9132959153503,124,180,182,59,2014
+"Hombre",20,"Pareja de hecho","E","Secundaria completa",0,0,"Semanal",2,106,82,99,31.0668197609484,90,238,153,37,2014
+"Hombre",43,"Pareja de hecho","E","Secundaria incompleta",0,0,"Mensual",5,68,192,100,17.7508620023727,88,235,184,38,2014
+"Hombre",52,"Divorciado","E","Secundaria incompleta",1,5,"Semanal",5,35,141,74,18.2327836100012,97,173,170,37,2014
+"Mujer",55,"Soltero","B","Estudios tecnologicos",0,0,"Mensual",8,28,71,65,35.7291596904397,86,176,173,57,2014
+"Mujer",52,"Separado","E","Secundaria completa",0,0,"Semanal",2,130,109,86,28.122489573434,114,227,191,42,2014
+"Mujer",51,"Soltero","E","Estudios universitarios",2,0,"Mensual",2,245,114,92,16.8982489444315,119,187,219,60,2014
+"Mujer",21,"Soltero","E","Estudios universitarios",3,0,"Semanal",3,15,77,83,24.9453165195882,84,293,165,56,2014
+"Mujer",54,"Soltero","D","Estudios universitarios",0,5,"Semanal",9,229,127,104,36.8123746793717,113,273,211,55,2014
+"Mujer",58,"Casado","E","Estudios tecnologicos",1,3,"Mensual",3,208,132,96,19.1141733955592,115,151,139,42,2014
+"Hombre",36,"Separado","D","Secundaria incompleta",0,0,"Semanal",5,252,131,109,38.9467183742672,99,248,164,45,2014
+"Mujer",69,"Soltero","E","Postgrado",0,0,"Mensual",6,79,73,66,30.5790846217424,117,208,181,54,2014
+"Hombre",15,"Soltero","D","Secundaria completa",1,0,"Mensual",1,117,70,97,39.7201267052442,129,240,207,51,2014
+"Hombre",18,"Casado","D","Secundaria completa",0,2,"Semanal",3,92,81,69,27.0190190896392,119,225,218,52,2014
+"Hombre",50,"Viudo","E","Secundaria completa",0,5,"Semanal",6,58,154,112,30.1685307174921,125,211,179,38,2014
+"Hombre",73,"Divorciado","E","Secundaria incompleta",0,12,"Semanal",5,16,147,58,27.8391221649945,82,254,144,39,2014
+"Mujer",54,"Soltero","E","Secundaria completa",0,0,"Semanal",3,131,107,92,23.9584467019886,83,163,176,49,2014
+"Hombre",45,"Soltero","C","Estudios tecnologicos",0,0,"Mensual",7,146,153,84,33.8274912741035,99,173,195,58,2014
+"Hombre",23,"Separado","D","Secundaria completa",1,0,"Mensual",8,166,99,90,22.8861968405545,92,263,196,55,2014
+"Mujer",53,"Casado","D","Estudios universitarios",3,0,"Mensual",5,202,70,72,29.7562653068453,113,255,152,59,2014
+"Hombre",22,"Soltero","E","Secundaria completa",3,0,"Semanal",5,2,107,62,36.2789569273591,105,180,220,46,2014
+"Hombre",78,"Casado","E","Secundaria completa",4,0,"Semanal",2,76,197,92,25.4894272387028,123,258,157,47,2014
+"Hombre",83,"Separado","E","Secundaria incompleta",0,0,"Mensual",4,150,89,114,20.0537464469671,95,217,166,52,2014
+"Hombre",17,"Divorciado","E","Estudios universitarios",0,0,"Mensual",11,101,95,81,29.0735618639737,86,288,195,55,2014
+"Mujer",69,"Casado","C","Estudios universitarios",1,1,"Mensual",9,97,89,116,19.8751293085515,97,182,172,41,2014
+"Mujer",15,"Separado","E","Secundaria completa",0,2,"Mensual",2,145,146,120,33.9984864071012,82,246,150,48,2014
+"Hombre",21,"Casado","E","Estudios universitarios",0,0,"Semanal",4,53,95,94,38.7267273236066,112,197,212,48,2014
+"Mujer",15,"Casado","D","Secundaria incompleta",1,0,"Semanal",10,87,78,83,16.8846887741238,86,267,174,42,2014
+"Mujer",27,"Viudo","D","Secundaria completa",4,0,"Mensual",2,18,177,91,23.9154948797077,125,204,162,59,2014
+"Hombre",19,"Casado","E","Secundaria incompleta",0,0,"Semanal",9,7,171,113,38.3900495357811,81,224,176,49,2014
+"Hombre",24,"Casado","C","Estudios universitarios",2,0,"Semanal",6,88,74,88,32.1287011634558,130,244,173,57,2014
+"Mujer",53,"Separado","E","Secundaria completa",0,0,"Semanal",10,102,98,115,26.6860724948347,80,173,190,47,2014
+"Mujer",18,"Soltero","E","Estudios tecnologicos",1,0,"Semanal",7,179,103,77,38.2656298670918,85,257,217,42,2014
+"Mujer",33,"Casado","D","Estudios universitarios",1,0,"Semanal",4,13,152,62,27.2967729642987,119,161,205,38,2014
+"Mujer",39,"Separado","D","Estudios universitarios",0,1,"Mensual",7,118,142,109,36.0983035173267,85,252,210,59,2014
+"Mujer",21,"Soltero","D","Estudios tecnologicos",1,0,"Mensual",7,120,161,59,38.9176718331873,94,280,141,49,2015
+"Hombre",45,"Soltero","E","Secundaria incompleta",0,0,"Semanal",7,101,95,56,26.1637503597885,129,174,167,58,2015
+"Mujer",24,"Casado","D","Postgrado",1,0,"Mensual",1,35,167,50,34.9321179129183,104,188,154,58,2015
+"Mujer",83,"Pareja de hecho","B","Secundaria completa",1,5,"Mensual",3,145,165,71,29.8968404345214,124,262,207,53,2015
+"Mujer",26,"Casado","E","Secundaria completa",5,5,"Semanal",5,128,161,59,22.4515435509384,119,235,190,39,2015
+"Hombre",30,"Soltero","E","Secundaria incompleta",0,0,"Semanal",5,50,90,69,33.0525676123798,102,211,199,41,2015
+"Hombre",20,"Separado","C","Estudios universitarios",3,5,"Semanal",1,35,192,110,21.9770800210536,93,256,177,38,2015
+"Hombre",18,"Viudo","E","Postgrado",0,0,"Mensual",1,79,152,92,21.057191696018,130,196,145,40,2015
+"Mujer",26,"Soltero","D","Secundaria completa",1,0,"Mensual",5,285,93,62,34.4648520182818,112,206,215,59,2015
+"Hombre",22,"Separado","D","Estudios tecnologicos",2,2,"Semanal",3,173,194,120,16.133293941617,90,250,200,37,2015
+"Mujer",44,"Soltero","E","Secundaria completa",1,2,"Mensual",3,143,142,111,36.4471536111087,104,254,168,53,2015
+"Mujer",39,"Soltero","D","Secundaria completa",1,8,"Semanal",7,29,92,112,16.1775226909667,98,292,171,56,2015
+"Mujer",19,"Viudo","E","Estudios universitarios",0,12,"Mensual",3,8,198,119,21.5813755076379,114,151,209,48,2015
+"Mujer",19,"Pareja de hecho","C","Estudios universitarios",1,2,"Mensual",2,82,200,59,23.5100420061499,121,205,191,60,2015
+"Hombre",49,"Casado","D","Postgrado",0,7,"Semanal",1,241,122,60,39.976788783446,88,213,206,58,2015
+"Mujer",18,"Soltero","C","Secundaria completa",1,0,"Semanal",10,175,92,58,22.1796782203019,110,297,190,44,2015
+"Hombre",48,"Pareja de hecho","D","Secundaria completa",1,5,"Mensual",12,96,137,64,36.7785482518375,95,171,205,59,2015
+"Mujer",27,"Casado","C","Secundaria completa",0,12,"Mensual",2,184,104,93,23.0131254866719,126,238,146,54,2015
+"Mujer",17,"Soltero","E","Estudios universitarios",0,0,"Semanal",6,116,108,68,25.5952231679112,102,150,201,51,2015
+"Hombre",22,"Separado","E","Estudios universitarios",0,2,"Semanal",7,155,128,117,25.7519905231893,83,205,206,41,2015
+"Hombre",52,"Soltero","E","Secundaria completa",0,3,"Semanal",6,72,109,71,16.1175027601421,90,285,205,42,2015
+"Mujer",31,"Viudo","E","Estudios universitarios",0,10,"Semanal",5,68,194,96,21.9116247110069,80,168,156,58,2015
+"Hombre",20,"Divorciado","C","Secundaria completa",0,0,"Semanal",8,60,95,58,16.0418060328811,92,299,163,59,2015
+"Mujer",52,"Soltero","D","Secundaria completa",2,0,"Semanal",6,68,177,71,24.6088874619454,82,209,143,52,2015
+"Mujer",18,"Soltero","E","Secundaria incompleta",0,0,"Semanal",2,92,135,95,24.9324463587254,104,254,180,56,2015
+"Hombre",15,"Viudo","C","Secundaria incompleta",0,12,"Mensual",3,23,120,103,23.3054844029248,83,300,182,38,2015
+"Hombre",78,"Viudo","D","Secundaria completa",4,0,"Semanal",3,107,159,54,22.867913171649,96,202,130,48,2015
+"Hombre",24,"Soltero","C","Estudios universitarios",1,11,"Semanal",5,109,190,111,39.5094996094704,81,282,176,50,2015
+"Hombre",52,"Soltero","E","Secundaria completa",0,1,"Semanal",2,139,93,92,37.6283301375806,99,235,138,56,2015
+"Mujer",85,"Separado","D","Estudios universitarios",0,0,"Mensual",4,18,80,62,22.144411765039,82,182,132,53,2015
+"Hombre",35,"Separado","B","Secundaria incompleta",0,0,"Mensual",5,64,75,73,21.9073958229274,80,161,180,42,2015
+"Mujer",16,"Divorciado","E","Secundaria completa",0,5,"Mensual",2,86,101,69,26.836742054671,130,227,201,38,2015
+"Hombre",22,"Pareja de hecho","D","Secundaria completa",0,3,"Mensual",5,21,159,111,29.6936537250876,94,292,204,49,2015
+"Mujer",41,"Viudo","E","Estudios universitarios",0,0,"Mensual",1,52,96,76,32.7457855641842,128,204,142,38,2015
+"Hombre",38,"Viudo","D","Secundaria completa",0,8,"Semanal",10,83,160,115,32.4390356689692,105,185,135,50,2015
+"Mujer",19,"Separado","D","Estudios tecnologicos",3,2,"Mensual",2,199,163,93,36.0753077436239,91,236,220,59,2015
+"Hombre",82,"Viudo","E","Secundaria incompleta",2,5,"Semanal",4,14,196,88,29.3059773426503,112,189,210,53,2015
+"Mujer",17,"Casado","D","Estudios universitarios",1,0,"Semanal",9,119,163,74,34.3067852444947,118,179,164,48,2015
+"Hombre",40,"Pareja de hecho","D","Estudios universitarios",1,12,"Semanal",5,147,81,86,30.9746896643192,95,285,192,43,2015
+"Mujer",20,"Viudo","C","Secundaria completa",0,0,"Semanal",2,215,106,92,29.7043245192617,119,253,181,55,2015
+"Mujer",20,"Soltero","E","Secundaria completa",0,0,"Semanal",5,116,109,71,29.1855434644967,90,266,139,59,2015
+"Mujer",24,"Separado","C","Secundaria completa",0,3,"Semanal",2,155,150,70,23.2007842622697,130,179,209,43,2015
+"Mujer",62,"Viudo","E","Secundaria completa",1,8,"Semanal",8,186,128,63,27.743498083204,115,297,130,44,2015
+"Hombre",80,"Casado","E","Estudios universitarios",1,0,"Semanal",5,71,78,116,31.0237989332527,98,179,183,59,2015
+"Mujer",53,"Separado","C","Secundaria incompleta",0,2,"Semanal",8,155,75,114,35.6600595545024,94,151,178,53,2015
+"Mujer",35,"Separado","E","Secundaria completa",0,5,"Semanal",4,67,183,54,16.0061178449541,100,230,137,47,2015
+"Hombre",23,"Separado","E","Secundaria completa",5,2,"Semanal",1,124,197,112,38.7488001156598,90,218,193,44,2015
+"Hombre",59,"Casado","E","Estudios tecnologicos",0,0,"Mensual",7,65,177,74,35.6352402474731,85,289,203,43,2015
+"Hombre",28,"Separado","E","Secundaria completa",5,3,"Semanal",4,14,137,67,37.6415439397097,101,151,154,47,2015
+"Hombre",38,"Separado","E","Secundaria completa",0,3,"Semanal",5,28,135,109,25.0067716501653,123,259,169,52,2015
+"Hombre",18,"Soltero","E","Secundaria completa",2,0,"Semanal",4,2,116,109,32.036201229319,95,291,132,46,2016
+"Hombre",16,"Soltero","E","Secundaria incompleta",1,11,"Semanal",3,273,94,64,32.1357950475067,123,199,166,54,2016
+"Mujer",90,"Soltero","B","Secundaria completa",5,0,"Semanal",5,269,73,72,19.0634779855609,114,201,208,55,2016
+"Mujer",18,"Casado","E","Secundaria completa",0,0,"Mensual",18,149,120,113,36.0264480486512,105,199,204,48,2016
+"Mujer",28,"Casado","E","Secundaria incompleta",0,0,"Semanal",2,149,137,110,17.219699183479,109,288,182,46,2016
+"Mujer",48,"Pareja de hecho","E","Estudios tecnologicos",1,10,"Mensual",3,128,192,119,25.408348441124,86,208,135,44,2016
+"Hombre",40,"Soltero","D","Escuela Primaria",0,0,"Semanal",10,127,84,60,38.2845447380096,111,249,142,51,2016
+"Hombre",67,"Pareja de hecho","D","Secundaria completa",0,5,"Semanal",3,244,99,88,23.4949896279722,108,186,194,38,2016
+"Mujer",18,"Soltero","E","Estudios tecnologicos",0,3,"Semanal",3,10,167,82,38.2248649783432,81,275,165,46,2016
+"Hombre",54,"Soltero","C","Escuela Primaria",5,0,"Mensual",2,52,112,80,25.20857844688,122,280,215,55,2016
+"Hombre",31,"Casado","E","Secundaria completa",0,0,"Semanal",4,51,199,104,25.7377309780568,117,261,166,37,2016
+"Hombre",41,"Viudo","C","Secundaria completa",1,0,"Semanal",10,71,184,65,17.9317129738629,107,214,138,50,2016
+"Mujer",35,"Soltero","E","Secundaria completa",0,0,"Mensual",2,95,101,84,38.0772704035044,81,248,169,41,2016
+"Hombre",42,"Viudo","E","Postgrado",0,5,"Mensual",18,30,200,64,36.7338827159256,108,194,174,54,2016
+"Hombre",64,"Divorciado","E","Secundaria incompleta",0,0,"Semanal",5,11,120,88,34.5067344885319,122,180,188,44,2016
+"Mujer",17,"Soltero","E","Secundaria incompleta",0,0,"Mensual",5,64,187,73,27.2050185836852,86,161,196,43,2016
+"Mujer",22,"Separado","B","Estudios tecnologicos",3,0,"Semanal",1,132,171,83,24.5929332803935,95,150,144,45,2016
+"Mujer",52,"Viudo","E","Secundaria completa",3,0,"Semanal",1,120,185,85,38.4699329677969,121,204,192,38,2016
+"Hombre",28,"Separado","E","Estudios tecnologicos",1,0,"Mensual",4,291,160,56,33.6567887477577,88,181,190,51,2016
+"Mujer",22,"Soltero","D","Secundaria completa",4,0,"Semanal",3,99,137,109,28.8858132679015,112,172,165,37,2016
+"Hombre",55,"Separado","C","Secundaria incompleta",4,0,"Semanal",2,6,137,105,20.5417592786252,104,254,148,48,2016
+"Mujer",34,"Divorciado","E","Estudios universitarios",0,2,"Mensual",1,89,105,85,30.4263401106,99,251,132,50,2016
+"Mujer",18,"Divorciado","E","Escuela Primaria",0,0,"Semanal",1,233,175,101,20.3972777035087,109,195,202,39,2016
+"Mujer",72,"Soltero","C","Secundaria incompleta",1,12,"Semanal",5,8,88,62,16.9851883519441,94,196,211,60,2016
+"Mujer",20,"Separado","C","Secundaria completa",1,0,"Mensual",3,249,97,78,34.9241896551102,87,219,131,40,2016
+"Mujer",23,"Casado","D","Estudios universitarios",1,0,"Semanal",1,129,78,114,23.7495211381465,129,251,142,46,2016
+"Mujer",23,"Pareja de hecho","D","Secundaria completa",0,0,"Mensual",9,173,114,110,24.4013958629221,103,279,205,49,2016
+"Mujer",23,"Separado","E","Estudios tecnologicos",0,0,"Semanal",9,69,148,78,28.6008544880897,118,192,131,60,2016
+"Mujer",24,"Casado","E","Postgrado",3,0,"Mensual",20,275,90,53,36.32920457609,85,256,136,45,2016
+"Mujer",24,"Soltero","C","Escuela Primaria",1,9,"Mensual",5,190,168,57,28.5114018898457,130,203,157,52,2016
+"Mujer",30,"Viudo","E","Estudios universitarios",2,0,"Semanal",3,72,81,70,17.8221587054431,92,263,211,47,2016
+"Hombre",23,"Soltero","E","Secundaria incompleta",0,1,"Semanal",4,204,193,103,19.3331741020083,95,234,130,54,2016
+"Mujer",24,"Separado","B","Secundaria incompleta",1,0,"Semanal",18,143,167,75,24.8875890113413,94,184,173,38,2016
+"Mujer",37,"Viudo","E","Estudios tecnologicos",0,0,"Mensual",3,15,151,66,28.9083518926054,108,152,162,56,2016
+"Hombre",22,"Divorciado","E","Estudios universitarios",1,0,"Semanal",8,73,153,109,27.1191621180624,85,259,219,39,2016
+"Hombre",79,"Soltero","E","Secundaria completa",0,10,"Semanal",2,141,94,111,16.7635273747146,117,282,136,45,2016
+"Mujer",52,"Divorciado","C","Secundaria completa",4,9,"Semanal",9,208,87,64,32.011244000867,115,185,173,46,2016
+"Hombre",25,"Divorciado","C","Secundaria incompleta",0,0,"Mensual",4,64,117,80,21.9088458530605,85,204,130,60,2016
+"Hombre",22,"Soltero","E","Estudios tecnologicos",1,0,"Semanal",2,118,171,98,37.5362772103399,115,287,154,45,2016
+"Mujer",69,"Separado","E","Secundaria completa",0,5,"Mensual",7,106,134,116,19.0965428892523,113,172,169,57,2016
+"Hombre",28,"Separado","A","Estudios universitarios",0,0,"Semanal",4,64,105,85,19.341636935249,115,206,178,46,2016
+"Hombre",26,"Viudo","E","Estudios universitarios",2,4,"Mensual",9,241,158,102,33.4579430203885,113,214,173,37,2016
+"Hombre",31,"Soltero","E","Secundaria completa",0,0,"Semanal",3,117,196,109,21.4394689425826,126,185,219,60,2016
+"Mujer",26,"Separado","D","Estudios universitarios",0,5,"Semanal",2,294,125,72,17.5325139947236,121,272,144,46,2016
+"Mujer",22,"Casado","D","Escuela Primaria",1,10,"Semanal",5,294,180,73,24.7940968610346,126,241,183,45,2016
+"Hombre",54,"Soltero","E","Secundaria completa",3,0,"Semanal",6,227,170,73,35.568053252995,80,245,170,53,2016
+"Mujer",18,"Viudo","E","Secundaria completa",0,0,"Semanal",9,30,98,78,24.0016111172736,99,261,161,56,2016
+"Mujer",22,"Soltero","E","Secundaria completa",0,0,"Semanal",4,166,169,55,25.3263983111829,104,274,147,44,2016
+"Hombre",24,"Casado","B","Estudios universitarios",0,8,"Mensual",5,9,167,107,35.0401949491352,119,276,130,58,2016
+"Hombre",46,"Casado","C","Estudios universitarios",0,0,"Semanal",10,83,181,92,32.0707736797631,123,289,168,52,2016
