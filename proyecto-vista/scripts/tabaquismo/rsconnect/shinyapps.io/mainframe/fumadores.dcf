@@ -1,0 +1,10 @@
+name: fumadores
+title:
+username:
+account: mainframe
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 198815
+bundleId: 912388
+url: https://mainframe.shinyapps.io/fumadores/
+when: 1500777778.23677
