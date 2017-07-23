@@ -1,7 +1,7 @@
 generador=function(tamanio_muestra, year=1960){
     library("wakefield")
-    #setwd("/root/proyecto")
-    setwd("C:\\Users\\David\\Documents\\examen\\")
+    setwd("/root/proyecto")
+    #setwd("C:\\Users\\David\\Documents\\examen\\")
     
     #Generación de sexo
     sexo<-0
@@ -65,7 +65,7 @@ generador=function(tamanio_muestra, year=1960){
     trigliceridos<-sample(tamanio_muestra,x=130:220, replace = T)
     colesterol_hdl<-sample(tamanio_muestra,x=37:60, replace = T)
     
-    #Año hecho del estudio
+    #Anio hecho del estudio
     anio_estudio<-0
     for(i in 1:tamanio_muestra){
         anio_estudio=year;
@@ -77,11 +77,11 @@ generador=function(tamanio_muestra, year=1960){
                       colesterol_total, trigliceridos,colesterol_hdl, anio_estudio,  stringsAsFactors = F)
     
     
-    nombreColumnas=c("Sexo","Edad","Estado civil","Nivel socieconómico",
-                     "Grado de instrucción","Cigarros por día","Tiempo sin fumar",
-                     "Frecuencia de alchol","Cantidad de alcohol",
-                     "Tiempo actividad física","Presión sistólica",
-                     "Presión diastólica","IMC","Glicemia","Colesterol total","Triglicéridos","Colesterol HDL", "Año")
+    nombreColumnas=c("Sexo","Edad","Estado civil","Nivel socieconomico",
+                     "Grado de instruccion","Cigarros por dia","Tiempo sin fumar",
+                     "Frecuencia de alcohol","Cantidad de alcohol",
+                     "Tiempo actividad fisica","Presion sistolica",
+                     "Presion diastolica","IMC","Glicemia","Colesterol total","Trigliceridos","Colesterol HDL", "Anio")
     
     for(i in 1:length(nombreColumnas)){
         colnames(datos)[i]<-nombreColumnas[i]
@@ -93,12 +93,11 @@ generador=function(tamanio_muestra, year=1960){
 
 generador_estudio=function(n,year_from){
     year_to<-as.numeric(format(as.Date(Sys.Date()),"%Y")) - 1
-    unidos<-0
+    unidos<-data.frame()
     for(i in year_from:year_to){
         generado<-generador(tamanio_muestra=n,year=i)
         unidos<-rbind(unidos,generado)   
     }
-    unidos<-unidos[-c(1),]
     write.csv(x=unidos, file="output/personas.csv", row.names = F)
     
 }
